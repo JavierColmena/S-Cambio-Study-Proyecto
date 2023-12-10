@@ -1,0 +1,55 @@
+* {
+    font-family: 'Sofia Sans Semi Condensed', sans-serif;
+}
+
+
+a {
+    color: #001233;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+h1 {
+    color: #073B3A;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+h2 {
+    color: #C1FF72;
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+h3 {
+    color: #000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+p {
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+img {
+    width: 92px;
+    height: 92px;
+}
+
+.cabecera{
+    background-color: #C1FF72;
+}
