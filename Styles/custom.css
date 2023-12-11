@@ -1,0 +1,82 @@
+* {
+    font-family: 'Sofia Sans Semi Condensed', sans-serif;
+}
+
+a {
+    color: #001233;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+h1 {
+    color: #073B3A;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+h2 {
+    color: #C1FF72;
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+h3 {
+    color: #000;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+p {
+    text-align: center;
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+img {
+    width: 92px;
+    height: 92px;
+}
+
+.titulo{
+    width: 503px;
+}
+
+.boton p{
+    padding: 1rem;
+    border-radius: 10px;
+    color: #C1FF72;
+    background-color: #073B3A;
+}
+
+.cabecera {
+    padding-top: 20px;
+    background-color: #C1FF72;
+}
+
+.hero {
+    height: 600px;
+    background-color: #C1FF72;
+}
+
+.moviles img{
+    width: 180px;
+    height: 300px;
+}
+
+.moviles img:nth-child(1) {
+    position: absolute;
+    transform: translate(-20px, 30px);
+}
