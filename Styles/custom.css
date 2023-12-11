@@ -2,10 +2,8 @@
     font-family: 'Sofia Sans Semi Condensed', sans-serif;
 }
 
-
 a {
     color: #001233;
-    text-align: center;
     font-size: 20px;
     font-weight: 700;
     text-decoration: none;
@@ -31,6 +29,7 @@ h2 {
 
 h3 {
     color: #000;
+    text-align: center;
     font-size: 24px;
     font-style: normal;
     font-weight: 600;
@@ -38,6 +37,7 @@ h3 {
 }
 
 p {
+    text-align: center;
     color: #000;
     font-size: 16px;
     font-style: normal;
@@ -50,6 +50,28 @@ img {
     height: 92px;
 }
 
-.cabecera{
+.titulo{
+    width: 503px;
+}
+
+.boton p{
+    padding: 1rem;
+    border-radius: 10px;
+    color: #C1FF72;
+    background-color: #073B3A;
+}
+
+.cabecera {
     background-color: #C1FF72;
+}
+
+.hero {
+    height: 400px;
+    width: 100%;
+    background-color: #C1FF72;
+}
+
+.moviles img:nth-child(1) {
+    position: absolute;
+    transform: translate(-20px, 30px);
 }
