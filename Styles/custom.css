@@ -62,13 +62,13 @@ img {
 }
 
 .cabecera {
-    padding-top: 20px;
+    padding: 2rem 5rem;
     background-color: #C1FF72;
 }
 
 .pie {
     background: linear-gradient(180deg, #004B23 0%, #00180B 67.38%, #000000 98.94%);
-    padding: 20px 10px;
+    padding: 30px 20px;
 }
 
 .pie h3 {
@@ -85,9 +85,71 @@ img {
     height: 30px;
 }
 
+.servicios {
+    background-color: #5CE1E6;
+    padding: 30px 20px;
+}
+
+.servicios h1 {
+    color: #001233;
+}
+
+.servicios img {
+    width: 180px;
+    height: 300px;
+}
+
+.domesticos {
+    padding: 30px 20px;
+}
+
+.domesticos h2 {
+    color: #000;
+}
+
+.domesticos h3 {
+    color: #001233;
+}
+
+.domesticos img {
+    width: 200px;
+    height: auto;
+}
+
+.cuidados {
+    background-color: #5CE1E6;
+    padding: 30px 20px;
+}
+
+.cuidados h2 {
+    color: #001233;
+}
+
+.cuidados img {
+    width: 200px;
+    height: auto;
+}
+
+.educativos {
+    padding: 30px 20px;
+}
+
+.educativos h2 {
+    color: #000;
+}
+
+.educativos h3 {
+    color: #001233;
+}
+
+.educativos img {
+    width: 200px;
+    height: auto;
+}
+
 .estudios {
     background-color: #5DA6BF;
-    padding: 20px 10px;
+    padding: 30px 20px;
 }
 
 .estudios h1 {
@@ -105,7 +167,7 @@ img {
 
 .fp {
     background-color: #001233;
-    padding: 20px 10px;
+    padding: 30px 20px;
 }
 
 .fp h2 {
@@ -127,7 +189,7 @@ img {
 
 .universidad {
     background-color: #5DA6BF;
-    padding: 20px 10px
+    padding: 30px 20px
 }
 
 .universidad h2 {
@@ -144,8 +206,8 @@ img {
 }
 
 .hero {
-    height: 600px;
     background-color: #C1FF72;
+    padding: 30px 20px;
 }
 
 .moviles img{
