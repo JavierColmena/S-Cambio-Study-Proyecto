@@ -30,7 +30,7 @@ h2 {
 h3 {
     color: #000;
     text-align: center;
-    font-size: 24px;
+    font-size: 28px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -39,7 +39,7 @@ h3 {
 p {
     text-align: center;
     color: #000;
-    font-size: 16px;
+    font-size: 24px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -64,6 +64,83 @@ img {
 .cabecera {
     padding-top: 20px;
     background-color: #C1FF72;
+}
+
+.pie {
+    background: linear-gradient(180deg, #004B23 0%, #00180B 67.38%, #000000 98.94%);
+    padding: 20px 10px;
+}
+
+.pie h3 {
+    color: #C1FF72;
+}
+
+.pie p {
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.iconos img {
+    width: 30px;
+    height: 30px;
+}
+
+.estudios {
+    background-color: #5DA6BF;
+    padding: 20px 10px;
+}
+
+.estudios h1 {
+    color: #FFFFFF;
+}
+
+.estudios p {
+    text-align: left;
+}
+
+.estudios img {
+    width: 180px;
+    height: 300px;
+}
+
+.fp {
+    background-color: #001233;
+    padding: 20px 10px;
+}
+
+.fp h2 {
+    color: #5CE1E6;
+}
+
+.fp h3 {
+    color: #FFFFFF;
+}
+
+.fp p {
+    color: #FFFFFF;
+}
+
+.fp img {
+    width: 200px;
+    height: auto;
+}
+
+.universidad {
+    background-color: #5DA6BF;
+    padding: 20px 10px
+}
+
+.universidad h2 {
+    color: #FFFFFF;
+}
+
+.universidad h3 {
+    color: #001233;
+}
+
+.universidad img {
+    width: 200px;
+    height: auto;
 }
 
 .hero {
