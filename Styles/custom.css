@@ -52,34 +52,120 @@ img {
     height: 92px;
 }
 
-.titulo{
+/* CABECERA */
+
+.titulo {
     width: 503px;
 }
 
-.boton p{
-    padding: 1rem;
-    border-radius: 10px;
-    color: #C1FF72;
-    background-color: #073B3A;
-}
 
 .cabecera {
     padding: 2rem 5rem;
     background-color: #C1FF72;
 }
 
+/* HERO */
+
+
+.boton p {
+    padding: 1rem;
+    border-radius: 10px;
+    color: #C1FF72;
+    background-color: #073B3A;
+    border: 1px solid #073B3A;
+    transition: .2s;
+}
+
+.boton p:hover {
+    color: #073B3A;
+    background-color: transparent;
+}
 
 .hero {
     height: 700px;
     background-color: #C1FF72;
 }
 
-.moviles img{
-    width: 280px;
-    height: 500px;
+.moviles {
+    margin-bottom: 2rem;
+}
+
+.moviles img {
+    width: 180px;
+    height: 300px;
 }
 
 .moviles img:nth-child(1) {
     position: absolute;
     transform: translate(110px, -50px);
+}
+
+/* PREMIUM */
+
+.premium {
+    height: 250px;
+    background: #073B3A;
+}
+
+.premium h1 {
+    padding: 5px;
+    color: #C1FF72;
+}
+
+.premium h3 {
+    color: #FFF;
+}
+
+/* SERVICIOS */
+
+.servicios {
+    height: 100%;
+    background: #001233;
+}
+
+.contenedor {
+    margin: 2rem;
+    width: 400px;
+    height: 350px;
+    border: 1px solid #000;
+    background: rgba(255, 255, 255, 0.50);
+    gap: 2rem;
+}
+
+.contenedor h2 {
+    color: #001233;
+}
+
+.contenedor h3 {
+    width: 180px;
+}
+
+.servicios .boton p {
+    padding: 1rem;
+    border-radius: 10px;
+    color: #FFF;
+    background: #001233;
+    border: 1px solid #001233;
+    transition: .2s;
+}
+
+/* EQUIPO */
+.equipo{
+    height: 100%;
+    background: #5DA6BF;
+}
+.equipo div{
+    padding: 2rem;
+}
+.equipo div h1{
+    padding: 5px;
+    color: #001233;
+}
+.equipo div p{
+    font-size: 24px;
+}
+.equipo div img{
+    width: 200px;
+    height: 200px;
+    border-radius: 2rem;
 }
