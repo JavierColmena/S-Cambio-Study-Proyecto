@@ -282,7 +282,10 @@ img {
     padding: 2rem 0;
     background: #073B3A;
 }
-
+.premium2 img{
+    width: auto;
+    height: 150px;
+}
 .premium2 h1 {
     padding: 5px;
     color: #C1FF72;
@@ -295,12 +298,71 @@ img {
 
 
 .caja-texto {
-    width: 200px;
-    padding: 20px;
+    height: 242px;
+    width: 400px;
     border-radius: 15px;
     background: rgba(255, 255, 255, 0.15);
 }
 
 .caja-texto p {
+    margin: 0;
+    font-size: 24px;
     color: #FFF;
+}
+
+/* FUNCIONES */
+
+.funciones {
+    background: #004B23;
+    padding: 30px 0;
+}
+
+.funciones img {
+    width: 180px;
+    height: 200px;
+}
+
+.funciones p {
+    margin: 0;
+    color: #FFF;
+}
+
+.funciones h1 {
+    color: #C1FF72;
+}
+
+/* ESTUDIOS */
+
+.estudios {
+    background: #001233;
+    padding: 30px 0px;
+}
+
+.estudios h1{
+    color: #FFF
+}
+
+.estudios h2{
+    color: #5CE1E6;
+}
+.estudios img {
+    width: auto;
+    height: 200px;
+}
+
+/* SERVICIOS */
+
+.servicios{
+    background-color: #5CE1E6;
+    padding: 30px 0;
+}
+.servicios .caja{
+    padding: 20px;
+}
+.servicios img{
+    width: auto;
+    height: 200px;
+}
+.servicios h1,h2{
+    color: #001233;
 }
