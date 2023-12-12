@@ -352,17 +352,17 @@ img {
 
 /* SERVICIOS */
 
-.servicios{
+.servicios2{
     background-color: #5CE1E6;
     padding: 30px 0;
 }
-.servicios .caja{
+.servicios2 .caja{
     padding: 20px;
 }
-.servicios img{
+.servicios2 img{
     width: auto;
     height: 200px;
 }
-.servicios h1,h2{
+.servicios2 h1,h2{
     color: #001233;
 }
