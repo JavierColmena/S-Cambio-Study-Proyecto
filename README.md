@@ -15,7 +15,7 @@
 
 ## FOOTER COPIAR Y PEGAR
 
->    <footer class="row footer">
+>       <footer class="row footer">
 >       <div class="col-12 col-lg-3 d-flex align-items-center justify-content-center flex-column gap-2">
 >           <a href="home.html"><img src="../Images/LogoSC.png" alt="Logo de la pagina"></a>
 >           <div class="iconos">
@@ -55,4 +55,4 @@
 >               <p>UNIVERSIDAD</p>
 >           </a>
 >       </div>
->   </footer>
+>       </footer>
