@@ -11,10 +11,6 @@ a {
     text-decoration: none;
 }
 
-summary{
-    display:inline ;
-}
-
 h1 {
     color: #073B3A;
     text-align: center;
@@ -36,9 +32,9 @@ h2 {
 h3 {
     color: #000;
     text-align: center;
-    font-size: 28px;
+    font-size: 24px;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 600;
     line-height: normal;
 }
 
@@ -68,15 +64,31 @@ img {
     background-color: #C1FF72;
 }
 
-.cabecera a{
-    text-decoration:none;
-    color:#001233;
+/* FOOTER */
+
+.footer {
+    background: linear-gradient(180deg, #004B23 0%, #00180B 67.38%, #000000 98.94%);
+    padding: 30px 20px;
 }
 
-/* HERO */
+.footer h3 {
+    color: #C1FF72;
+}
 
+.footer p {
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.iconos img {
+    width: 30px;
+    height: 30px;
+}
+
+/* PAGINA HOME */
+
+/* HERO */
 .boton p {
-    width: 150px;
     padding: 1rem;
     border-radius: 10px;
     color: #C1FF72;
@@ -91,15 +103,10 @@ img {
 }
 
 .hero {
-    height: 100%;
-    padding: 100px 0;
+    height: 700px;
     background-color: #C1FF72;
 }
-.hero .texto{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 .moviles {
     margin-bottom: 2rem;
 }
@@ -115,7 +122,6 @@ img {
 }
 
 /* PREMIUM */
-
 .premium {
     height: 250px;
     background: #073B3A;
@@ -131,8 +137,7 @@ img {
 }
 
 /* SERVICIOS */
-
-.servicios {
+.servicios1 {
     height: 100%;
     background: #001233;
 }
@@ -154,7 +159,7 @@ img {
     width: 180px;
 }
 
-.servicios .boton p {
+.servicios1 .boton p {
     padding: 1rem;
     border-radius: 10px;
     color: #FFF;
@@ -173,7 +178,7 @@ img {
     padding: 2rem;
 }
 
-.equipo div h2 {
+.equipo div h1 {
     padding: 5px;
     color: #001233;
 }
@@ -189,7 +194,6 @@ img {
 }
 
 /* PREGUNTAS */
-
 .preguntas {
     background: rgba(92, 225, 230, 0.70);
     padding: 5rem;
@@ -204,24 +208,26 @@ img {
     border-radius: 2rem;
 }
 
+.preguntas div div {
+    width: 1000px;
+}
 
-.preguntas h2 {
+.preguntas div div h2 {
     border: 2px solid #001233;
-
     border-radius: 10px 10px 0px 0px;
-    padding: 1rem 5rem;
-    width: 100%;
+
     color: #FFF;
     margin: 0;
+    width: 100%;
+    height: 50px;
     background: #001233;
 }
 
-.preguntas  h3 {
-    width: 100%;
-
+.preguntas div div p {
     border: 2px solid #FFF;
     border-radius: 0px 0px 10px 10px;
-    padding: 1rem 5rem;
+    width: 100%;
+    height: 50px;
     background: #FFF;
 }
 
@@ -239,52 +245,26 @@ img {
 }
 
 .colaboradores div img {
-    width: fit-content;
-    height: 150px;
+    width: 200px;
+    height: 200px;
 }
-
-.footer {
-    background: linear-gradient(180deg, #004B23 0%, #00180B 67.38%, #000000 98.94%);
-    padding: 30px 20px;
-}
-
-.footer h3 {
-    color: #C1FF72;
-}
-
-.footer p {
-    font-size: 16px;
-    color: #FFFFFF;
-}
-
-.iconos img {
-    width: 30px;
-    height: 30px;
-}
-
-.footer a {
-    text-decoration: none;
-}
-
-
 
 /* PAGINA APLICACION */
 
 /* HERO */
-
 .hero2 {
-    height: 100%;
-    padding: 100px 0;
+    height: 700px;
     background-color: #C1FF72;
+
 }
-.hero2 .texto{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+.hero2 .texto {
+    width: 900px;
 }
+
 .hero2 .moviles img {
-    width: 250px;
-    height: 400px;
+    width: 300px;
+    height: 500px;
 }
 
 .hero2 .moviles img:nth-child(1) {
@@ -312,7 +292,6 @@ img {
     color: #FFF;
 }
 
-
 .caja-texto {
     height: 242px;
     width: 400px;
@@ -327,7 +306,6 @@ img {
 }
 
 /* FUNCIONES */
-
 .funciones {
     background: #004B23;
     padding: 30px 0;
@@ -348,26 +326,24 @@ img {
 }
 
 /* ESTUDIOS */
-
-.estudios {
+.estudios1 {
     background: #001233;
     padding: 30px 0px;
 }
 
-.estudios h1{
+.estudios1 h1{
     color: #FFF
 }
 
-.estudios h2{
+.estudios1 h2{
     color: #5CE1E6;
 }
-.estudios img {
+.estudios1 img {
     width: auto;
     height: 200px;
 }
 
 /* SERVICIOS */
-
 .servicios2{
     background-color: #5CE1E6;
     padding: 30px 0;
@@ -383,77 +359,133 @@ img {
     color: #001233;
 }
 
-/* NOSOTROS */ 
-.nosotros{
-    background-color: #C1FF72;
+/* PAGINA SERVICIOS */
+
+/* SERVICIOS */
+.servicios1 {
+    background-color: #5CE1E6;
+    padding: 30px 20px;
 }
 
-.nosotros div h1{
+.servicios1 h1 {
     color: #001233;
 }
 
-.nosotros p{
-    font-size: 24px;
+.servicios1 img {
+    width: 180px;
+    height: 300px;
+}
+
+/* DOMESTICOS */
+.domesticos {
+    padding: 30px 20px;
+}
+
+.domesticos h2 {
     color: #000;
 }
 
-.nosotros img {
-    width: 162px;
-    height: 155px;
+.domesticos h3 {
+    color: #001233;
 }
 
-/* FORMULARIO */
-
-.formulario{
-    background-color: #073B3A;
-    text-align: start;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
+.domesticos img {
+    width: 200px;
+    height: auto;
 }
 
-.formulario .titulof {
-    padding: 2rem;
+/* CUIDADOS */
+.cuidados {
+    background-color: #5CE1E6;
+    padding: 30px 20px;
 }
 
-.formulario div h2 {
-    padding: 5px;
-    color: #FFF;
+.cuidados h2 {
+    color: #001233;
 }
 
-.formulario label {
-    color: #C1FF72;
-    font-size: 24px;
+.cuidados img {
+    width: 200px;
+    height: auto;
 }
 
-.formulario .opciones p {
-    color: #C1FF72;
-    font-size: 24px;
+/* EDUCATIVOS */
+.educativos {
+    padding: 30px 20px;
 }
 
-.formulario .opciones label {
-    color: #fff;
-    font-size: 20px;
-}
-
-.formulario input, select{
-    width: 100%;
-    background-color: #C1FF72;
-    border-radius: 15px;
-    height: 50px;
-    padding: 0% 6px;
+.educativos h2 {
     color: #000;
-    font-size: 20px;
 }
 
-.formulario .enviar{
-    border: 1px solid #073B3A;
-    color: #004B23;
+.educativos h3 {
+    color: #001233;
 }
 
-.enviar:hover{
-    border: 1px solid #C1FF72;
-    color: #C1FF72;
-    background-color: #004B23;
+.educativos img {
+    width: 200px;
+    height: auto;
+}
+
+/* PAGINA ESTUDIOS */
+
+/* ESTUDIOS */
+.estudios1 {
+    background-color: #5DA6BF;
+    padding: 30px 20px;
+}
+
+.estudios1 h1 {
+    color: #FFFFFF;
+}
+
+.estudios1 p {
+    text-align: left;
+}
+
+.estudios1 img {
+    width: 180px;
+    height: 300px;
+}
+
+/* FORMACION PROFESIONAL */
+.fp {
+    background-color: #001233;
+    padding: 30px 20px;
+}
+
+.fp h2 {
+    color: #5CE1E6;
+}
+
+.fp h3 {
+    color: #FFFFFF;
+}
+
+.fp p {
+    color: #FFFFFF;
+}
+
+.fp img {
+    width: 200px;
+    height: auto;
+}
+
+/* UNIVERSIDAD */
+.universidad {
+    background-color: #5DA6BF;
+    padding: 30px 20px
+}
+
+.universidad h2 {
+    color: #FFFFFF;
+}
+
+.universidad h3 {
+    color: #001233;
+}
+
+.universidad img {
+    width: 200px;
+    height: auto;
 }
