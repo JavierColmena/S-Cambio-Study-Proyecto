@@ -397,9 +397,8 @@ img {
     color: #000;
 }
 
-.nosotros img {
-    width: 162px;
-    height: 155px;
+.nosotros div img {
+    width: 300px;
 }
 
 /* FORMULARIO */
