@@ -1,0 +1,491 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Sofia Sans Semi Condensed', sans-serif;
+}
+
+a {
+    color: #001233;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+h1 {
+    color: #073B3A;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+h2 {
+    color: #C1FF72;
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+h3 {
+    color: #000;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+p {
+    text-align: center;
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+img {
+    width: 92px;
+    height: 92px;
+}
+
+/* CABECERA */
+
+.titulo {
+    width: 503px;
+}
+
+
+.cabecera {
+    padding: 2rem 5rem;
+    background-color: #C1FF72;
+}
+
+/* FOOTER */
+
+.footer {
+    background: linear-gradient(180deg, #004B23 0%, #00180B 67.38%, #000000 98.94%);
+    padding: 30px 20px;
+}
+
+.footer h3 {
+    color: #C1FF72;
+}
+
+.footer p {
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.iconos img {
+    width: 30px;
+    height: 30px;
+}
+
+/* PAGINA HOME */
+
+/* HERO */
+.boton p {
+    padding: 1rem;
+    border-radius: 10px;
+    color: #C1FF72;
+    background-color: #073B3A;
+    border: 1px solid #073B3A;
+    transition: .2s;
+}
+
+.boton p:hover {
+    color: #073B3A;
+    background-color: transparent;
+}
+
+.hero {
+    height: 700px;
+    background-color: #C1FF72;
+}
+
+.moviles {
+    margin-bottom: 2rem;
+}
+
+.moviles img {
+    width: 180px;
+    height: 300px;
+}
+
+.moviles img:nth-child(1) {
+    position: absolute;
+    transform: translate(110px, -50px);
+}
+
+/* PREMIUM */
+.premium {
+    height: 250px;
+    background: #073B3A;
+}
+
+.premium h1 {
+    padding: 5px;
+    color: #C1FF72;
+}
+
+.premium h3 {
+    color: #FFF;
+}
+
+/* SERVICIOS */
+.servicios1 {
+    height: 100%;
+    background: #001233;
+}
+
+.contenedor {
+    margin: 2rem;
+    width: 400px;
+    height: 350px;
+    border: 1px solid #000;
+    background: rgba(255, 255, 255, 0.50);
+    gap: 2rem;
+}
+
+.contenedor h2 {
+    color: #001233;
+}
+
+.contenedor h3 {
+    width: 180px;
+}
+
+.servicios1 .boton p {
+    padding: 1rem;
+    border-radius: 10px;
+    color: #FFF;
+    background: #001233;
+    border: 1px solid #001233;
+    transition: .2s;
+}
+
+/* EQUIPO */
+.equipo {
+    height: 100%;
+    background: #5DA6BF;
+}
+
+.equipo div {
+    padding: 2rem;
+}
+
+.equipo div h1 {
+    padding: 5px;
+    color: #001233;
+}
+
+.equipo div p {
+    font-size: 24px;
+}
+
+.equipo div img {
+    width: 200px;
+    height: 200px;
+    border-radius: 2rem;
+}
+
+/* PREGUNTAS */
+.preguntas {
+    background: rgba(92, 225, 230, 0.70);
+    padding: 5rem;
+
+}
+
+.preguntas div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 2rem;
+}
+
+.preguntas div div {
+    width: 1000px;
+}
+
+.preguntas div div h2 {
+    border: 2px solid #001233;
+    border-radius: 10px 10px 0px 0px;
+
+    color: #FFF;
+    margin: 0;
+    width: 100%;
+    height: 50px;
+    background: #001233;
+}
+
+.preguntas div div p {
+    border: 2px solid #FFF;
+    border-radius: 0px 0px 10px 10px;
+    width: 100%;
+    height: 50px;
+    background: #FFF;
+}
+
+/* COLABORADORES */
+.colaboradores {
+    height: 100%;
+    padding: 2rem;
+}
+
+.colaboradores div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.colaboradores div img {
+    width: 200px;
+    height: 200px;
+}
+
+/* PAGINA APLICACION */
+
+/* HERO */
+.hero2 {
+    height: 700px;
+    background-color: #C1FF72;
+
+}
+
+.hero2 .texto {
+    width: 900px;
+}
+
+.hero2 .moviles img {
+    width: 300px;
+    height: 500px;
+}
+
+.hero2 .moviles img:nth-child(1) {
+    position: inherit;
+    transform: translate(0px, 0px);
+}
+
+/* PREMIUM */
+.premium2 {
+    height: 100%;
+    padding: 2rem 0;
+    background: #073B3A;
+}
+.premium2 img{
+    width: auto;
+    height: 150px;
+}
+.premium2 h1 {
+    padding: 5px;
+    color: #C1FF72;
+}
+
+.premium2 h3 {
+    font-size: 35px;
+    color: #FFF;
+}
+
+.caja-texto {
+    height: 242px;
+    width: 400px;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.15);
+}
+
+.caja-texto p {
+    margin: 0;
+    font-size: 24px;
+    color: #FFF;
+}
+
+/* FUNCIONES */
+.funciones {
+    background: #004B23;
+    padding: 30px 0;
+}
+
+.funciones img {
+    width: 180px;
+    height: 200px;
+}
+
+.funciones p {
+    margin: 0;
+    color: #FFF;
+}
+
+.funciones h1 {
+    color: #C1FF72;
+}
+
+/* ESTUDIOS */
+.estudios1 {
+    background: #001233;
+    padding: 30px 0px;
+}
+
+.estudios1 h1{
+    color: #FFF
+}
+
+.estudios1 h2{
+    color: #5CE1E6;
+}
+.estudios1 img {
+    width: auto;
+    height: 200px;
+}
+
+/* SERVICIOS */
+.servicios2{
+    background-color: #5CE1E6;
+    padding: 30px 0;
+}
+.servicios2 .caja{
+    padding: 20px;
+}
+.servicios2 img{
+    width: auto;
+    height: 200px;
+}
+.servicios2 h1,h2{
+    color: #001233;
+}
+
+/* PAGINA SERVICIOS */
+
+/* SERVICIOS */
+.servicios1 {
+    background-color: #5CE1E6;
+    padding: 30px 20px;
+}
+
+.servicios1 h1 {
+    color: #001233;
+}
+
+.servicios1 img {
+    width: 180px;
+    height: 300px;
+}
+
+/* DOMESTICOS */
+.domesticos {
+    padding: 30px 20px;
+}
+
+.domesticos h2 {
+    color: #000;
+}
+
+.domesticos h3 {
+    color: #001233;
+}
+
+.domesticos img {
+    width: 200px;
+    height: auto;
+}
+
+/* CUIDADOS */
+.cuidados {
+    background-color: #5CE1E6;
+    padding: 30px 20px;
+}
+
+.cuidados h2 {
+    color: #001233;
+}
+
+.cuidados img {
+    width: 200px;
+    height: auto;
+}
+
+/* EDUCATIVOS */
+.educativos {
+    padding: 30px 20px;
+}
+
+.educativos h2 {
+    color: #000;
+}
+
+.educativos h3 {
+    color: #001233;
+}
+
+.educativos img {
+    width: 200px;
+    height: auto;
+}
+
+/* PAGINA ESTUDIOS */
+
+/* ESTUDIOS */
+.estudios1 {
+    background-color: #5DA6BF;
+    padding: 30px 20px;
+}
+
+.estudios1 h1 {
+    color: #FFFFFF;
+}
+
+.estudios1 p {
+    text-align: left;
+}
+
+.estudios1 img {
+    width: 180px;
+    height: 300px;
+}
+
+/* FORMACION PROFESIONAL */
+.fp {
+    background-color: #001233;
+    padding: 30px 20px;
+}
+
+.fp h2 {
+    color: #5CE1E6;
+}
+
+.fp h3 {
+    color: #FFFFFF;
+}
+
+.fp p {
+    color: #FFFFFF;
+}
+
+.fp img {
+    width: 200px;
+    height: auto;
+}
+
+/* UNIVERSIDAD */
+.universidad {
+    background-color: #5DA6BF;
+    padding: 30px 20px
+}
+
+.universidad h2 {
+    color: #FFFFFF;
+}
+
+.universidad h3 {
+    color: #001233;
+}
+
+.universidad img {
+    width: 200px;
+    height: auto;
+}
