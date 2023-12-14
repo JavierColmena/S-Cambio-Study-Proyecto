@@ -376,9 +376,6 @@ img {
 }
 
 /* NOSOTROS */ 
-
-
-
 .nosotros{
     background-color: #C1FF72;
 }
@@ -393,8 +390,8 @@ img {
 }
 
 .nosotros img {
-    width: 162px;
-    height: 155px;
+    width: 400px;
+    width: 380px;
 }
 
 /* FORMULARIO */
