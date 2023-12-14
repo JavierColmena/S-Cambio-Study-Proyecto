@@ -362,16 +362,16 @@ img {
 /* PAGINA SERVICIOS */
 
 /* SERVICIOS */
-.servicios {
+.servicios1 {
     background-color: #5CE1E6;
     padding: 30px 20px;
 }
 
-.servicios h1 {
+.servicios1 h1 {
     color: #001233;
 }
 
-.servicios img {
+.servicios1 img {
     width: 180px;
     height: 300px;
 }
@@ -430,20 +430,20 @@ img {
 /* PAGINA ESTUDIOS */
 
 /* ESTUDIOS */
-.estudios {
+.estudios1 {
     background-color: #5DA6BF;
     padding: 30px 20px;
 }
 
-.estudios h1 {
+.estudios1 h1 {
     color: #FFFFFF;
 }
 
-.estudios p {
+.estudios1 p {
     text-align: left;
 }
 
-.estudios img {
+.estudios1 img {
     width: 180px;
     height: 300px;
 }
